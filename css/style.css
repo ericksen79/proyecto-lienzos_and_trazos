@@ -102,6 +102,12 @@ nav ul li a:hover {
     order: 2;
 }
 
+
+.center {
+    order: center;
+    width: 100%;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -111,6 +117,7 @@ nav ul li a:hover {
         order: initial;
         width: 100%;
     }
+
 }
 
 /* Secciones */
@@ -160,4 +167,9 @@ footer {
 footer p {
     margin-top: 10px;
     font-size: 16px;
+}
+
+footer .brand {
+    color: #fff;
+    text-decoration: none;
 }
