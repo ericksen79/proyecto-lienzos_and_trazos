@@ -8,11 +8,12 @@
 
 body {
     line-height: 1.6;
+    background-color: #E6DDD5;
 }
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: #AE8961;
     padding: 10px 0;
 }
 
@@ -27,14 +28,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fefefe;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
 }
 
 nav ul li a:hover {
-    color: #f0a500;
+    color: #816AB3;
 }
 
 /* Hero Section */
@@ -44,7 +45,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #fefefe;
     text-align: center;
 }
 
@@ -59,8 +60,8 @@ nav ul li a:hover {
 }
 
 .cta-btn {
-    background-color: #f0a500;
-    color: #fff;
+    background-color: #FCAB16;
+    color: #fefefe;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
@@ -69,7 +70,7 @@ nav ul li a:hover {
 }
 
 .cta-btn:hover {
-    background-color: #333;
+    background-color: #816AB3;
 }
 
 /* Container General */
@@ -148,20 +149,20 @@ ul li {
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #131313;
+    color: #fefefe;
     text-align: center;
     padding: 20px 0;
 }
 
 .social-icons a {
-    color: #fff;
+    color: #fefefe;
     margin: 0 10px;
     font-size: 24px;
 }
 
 .social-icons a:hover {
-    color: #f0a500;
+    color: #FCAB16;
 }
 
 footer p {
@@ -170,6 +171,6 @@ footer p {
 }
 
 footer .brand {
-    color: #fff;
+    color: #fefefe;
     text-decoration: none;
 }
