@@ -85,10 +85,10 @@
             <div class="content left">
                 <h2>Conclusiones</h2>
                 <ul>
-                    <li>La plataforma ha mejorado la difusión del arte <br>estudiantil del CENAR.</li>
-                    <li>Se ha logrado capacitar a los estudiantes en la <br>creación de portafolios digitales.</li>
-                    <li>El proyecto ha facilitado la interacción entre <br>artistas y el público en línea.</li>
-                    <li>El sistema de búsqueda avanzada ha mejorado la <br>accesibilidad a las obras.</li>
+                    <li>La plataforma ha mejorado la difusión del arte estudiantil del CENAR.</li>
+                    <li>Se ha logrado capacitar a los estudiantes en la creación de portafolios digitales.</li>
+                    <li>El proyecto ha facilitado la interacción entre artistas y el público en línea.</li>
+                    <li>El sistema de búsqueda avanzada ha mejorado la accesibilidad a las obras.</li>
                 </ul>
             </div>
         </div>
@@ -100,6 +100,45 @@
             <div class="content center">
                 <img src="img/img-5.svg" alt="Imagen Conclusiones">
             </div>
+    </section>
+    
+    <!-- Sección 6: contanc form -->
+    <section class="formulario">
+        <form action="#contact-us">
+            <label for="name">
+                <samp>Cual es tu Nombre?</samp>
+                <input type="text" id="name" placeholder="Coloca Tu  Nombre" autocomplete="name" required>
+            </label>
+
+            <label for="mail"></label>
+                <samp>Cual es tu correo?</samp>
+                <input type="email" id="mail" placeholder="name@expample.com" autocomplete="email" required>
+            </label>
+
+            <label for="pais">
+                <samp>¿Cuál es tu país de origen?</samp>
+                <input type="text"  id="pais" placeholder="Coloca tu país" autocomplete="country" required>
+            </label>
+
+            <label for="cp"></label>
+                <samp>¿Cuál es tu postal?</samp>
+                <input type="number"  id="cp" placeholder="Coloca tu código postal" autocomplete="postal-code" required>
+            </label>
+
+            <samp>Diplomados</samp>
+            <input list="diplomados">
+            <datalist id="diplomados">
+                <option value="Pintura">Pintura</option>
+                <option value="Escultura">Escultura</option>
+                <option value="Cerámica">Cerámica</option>
+            </datalist>
+
+            <label for="calendario">
+                <samp>Calendario</samp>
+                <input type="datetime-local" id="calendario" name="calendario">
+            </label>
+            <input type="submit">
+        </form>
     </section>
 
     <!-- Footer con iconos de redes sociales -->
