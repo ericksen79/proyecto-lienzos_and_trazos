@@ -197,7 +197,7 @@ ul li {
     width: 50%;
     margin: auto;
     margin-bottom: 32px;
-    padding: 20px;
+    padding: 32px;
     background-color: #f9f9f9;
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -212,8 +212,6 @@ form {
 label {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
-
     border-radius: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
@@ -245,6 +243,7 @@ input[type="datetime-local"]:focus {
 
 input[type="submit"] {
     padding: 10px 15px;
+    margin-top: 24px;
     background-color: #806BAE;
     color: white;
     border: none;
